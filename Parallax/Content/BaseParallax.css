@@ -1,0 +1,68 @@
+﻿.text{
+	background-color: white;
+	/*min-height: 1000px;*/
+	height: 110%; 
+	margin: 0 auto; 
+	width: 100%; 
+	max-width: 1920px;
+	position: relative;
+	display: table;
+	-webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+	box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
+.fixed-bottom-bar {
+	background-color: grey;
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+	height: 50px;
+	width: 100%;
+}
+
+.fixed-bottom-bar h2{
+	padding: 10px;
+	text-align: center;
+	font-family: Raleway;
+	-webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+	box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
+article {
+	text-align: center;
+	width: 80%;
+	padding-left: 10%;
+	padding-right: 10%;
+	color: black;
+	font-size: 30px;
+	font-family: Wellfleet;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.fixed-top-bar {
+	position: fixed;
+	top: 20;
+	left: 0;
+	z-index: 9999;
+	width: 100%;
+	height: 100px;
+	background-color: grey;
+	opacity: 0.7;
+	font-family: Raleway;
+	filter: alpha(opacity=70);
+}
+
+.fixed-top-bar  a{
+	color: black;
+	text-decoration: none; 
+	float: left; 
+	font-size: 36px; 
+	padding: 32px;
+	font-weight: bold;
+}
+
+.fixed-top-bar img {
+	height: 80px;
+	float: right;
+	padding: 10px;
+}
